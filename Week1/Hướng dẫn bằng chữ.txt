@@ -20,5 +20,8 @@ B6: sau khi build, push dự án lên Git
 
 B7: Push hoàn tất, deploy lên Vercel.com
 
+khi web chạy trên localhost:3000, ta không muốn nó chạy nữa, vào terminal của VSC: npx kill-port 3000
+(Hãy kiểm tra rằng đã nằm đúng directory để tắt 1 cách dễ dàng)
 
-project-directory: "C:/Users/stran/Desktop/Desktop/UIT/HK1_23-24/MSIS207.O12/EXERCISE/MSIS207.O12.CTTT/Week1/ex1"
+
+project-directory: "C:/Users/stran/Desktop/Desktop/UIT/HK1_23-24/MSIS207.O12/Exercise-MSIS207.O12/Week1/ex1"
