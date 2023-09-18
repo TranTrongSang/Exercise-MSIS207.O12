@@ -1,0 +1,24 @@
+Lưu ý: 
+	- Tạo repo trên Github.com trước
+	- Lấy Github Desktop clone về file cần thiết (Ví dụ: Nếu làm ex1 cho week 1 thì phải clone về file Week1/ex1/)
+	- Bắt đầu thao tác ở dưới
+
+
+
+B1: npm install -g create-react-app
+
+B2: npx create-react-app <directory>
+
+B3: khởi tạo dự án, chỉnh sửa giao diện của trang web
+
+B4: chỉnh sửa UI, test dự án trên localhost (Đầu tiên: cd <project-Directory> 
+								  Sau đó: npm start)
+
+B5: test dự án trên localhost, built dự án (mở Terminal trên VSC: Ctrl + ` (dấu bên cạnh số 1), rồi check lại project-directory đã đúng chưa, rồi bắt đầu chạy: "npm run build")
+
+B6: sau khi build, push dự án lên Git
+
+B7: Push hoàn tất, deploy lên Vercel.com
+
+
+project-directory: "C:/Users/stran/Desktop/Desktop/UIT/HK1_23-24/MSIS207.O12/EXERCISE/MSIS207.O12.CTTT/Week1/ex1"
