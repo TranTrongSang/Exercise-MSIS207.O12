@@ -43,6 +43,46 @@ Phần 4:
 
 Nhập vào terminal: npm install express --save
 
+var express = require('express');
+var app = express();
+
+app.get('/', function(req, res) 
+{
+	res.send('Hello World');
+});
+
+app.listen(3000, function()
+{
+	console.log("Server app is running at port 3000!");
+});
+---------
+trong file package.json:
+
+{
+  "name": "video2",
+  "version": "1.0.0",
+  "description": "'Hello World' project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "sang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
+
+============================================================
+
+Phần 5:
+
+1. npm install nodemon --save-dev
+2. npm install method-override --save
+3. npm install body-parser --save   
+
 
 
 
