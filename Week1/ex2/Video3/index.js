@@ -1,28 +1,15 @@
-var express = require('express');
-var app = express();
+const http = require("http");
+const hostname = '127.0.0.1';
+const port = 3000;
 
-app.get('/', function(req, res) 
+const server = http.createServer((req, res)=>
 {
-	res.send('Hello World');
+	res.statusCode = 200;
+	res.setHeader('Content-Type', 'text/plain');
+	res.end('Helo World');
 });
 
-app.listen(3000, function()
+server.listen(port, hostname, ()=>
 {
-	console.log("Server app is running at port 3000!");
+	console.log('server running at http://' + hostname + ':' + port + '/');
 });
-
-// const http = require("http");
-// const hostname = '127.0.0.1';
-// const port = 3000;
-
-// const server = http.createServer((req, res)=>
-// {
-// 	res.statusCode = 200;
-// 	res.setHeader('Content-Type', 'text/plain');
-// 	res.end('Helo World');
-// });
-
-// server.listen(port, hostname, ()=>
-// {
-// 	console.log('server running at http://' + hostname + ':' + port + '/');
-// });
